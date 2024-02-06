@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+}
+body {
+    padding: 0 12px;
+}
+a {
+    text-decoration: none;
+    color: rgb(162, 161, 161);
+}
+header {
+    color: rgb(162, 161, 161);
+    font-size: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+}
+.left {
+    margin: 12px 7px;
+    float: left;
+}
+.left span {
+    margin-right: 16px;
+}
+
+.right > div {
+    margin: 12px 7px;
+    float: right;
+    margin-right: 10px;
+}
+#microsoft {
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin: 9px 12px;
+
+}
+.back {
+    /* display: block; */
+    width: 100%;
+    background-image: url(../img/background.png.webp);
+    height: 56vh;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 0 80px; */
+}
+
+.back > div {
+    width: 350px;
+    position: relative;
+    top: 120px;
+    margin: 0 80px;
+}
+h1, .back > div > p {
+    margin-bottom: 15px;
+}
+p, button, .back > div span{
+    font-size: 14px;
+}
+button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    height: 36px;
+    border: none;
+    padding: 0 10px;
+    margin-right: 30px;
+}
+.back > div span {
+    font-weight: 600;
+}
+.main {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 1327px;
+}
+.main > div {
+    width: 240px;
+}
+.main > div > img {
+    margin-bottom: 20px;
+}
+.definition > * {
+    margin-bottom: 10px;
+}
+.blue {
+    font-weight:500;
+    color:dodgerblue;
+}
+

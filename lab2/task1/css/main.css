@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: block;
+    background-color: rgb(245, 249, 253);
+    /* height: 100%; */
+    /* position: relative; */
+}
+.main {
+   display: flex;
+   height: 79vh; 
+   width: 60%;
+   margin: 0 auto;
+   position: relative;
+   justify-content: space-between;
+    align-items: center;
+
+}
+.text {
+    min-width: 300px;
+    max-width: 450px;
+    align-items: first-baseline;
+}
+/* .text, .login {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
+.login {
+    text-align: center;
+    min-width: 400px;
+    width: 400px;
+}
+
+#facebook {
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(59, 111, 232);
+}
+.main .text p {
+    font-size: 18px;
+}
+.form {
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px 1px rgb(227, 227, 227);
+}
+.form * {
+    
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.form input {
+    width: 350px;
+    border: 1px solid rgb(195, 194, 194);
+}
+input, button {
+    height: 40px;
+    padding: 5px;
+    
+}
+button {
+    height: 50px;
+    border-width: 0;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+}
+#login-btn {
+    background-color:rgb(59, 111, 232);
+    border-width: 0;
+    width: 360px;
+}
+#signup-btn {
+    width: 55%;
+    background-color: rgb(7, 195, 7);
+}
+.form p {
+    margin-top: 10px;
+    color:rgb(59, 111, 232);
+    font-size: 14px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 6px 2px rgb(227, 227, 227);
+}
+
+footer {
+    padding: 20px 200px;
+    min-height: 13vh;
+    position: static;
+    bottom: 0;
+    font-size: 12px;
+    width: 1050px;
+    /* max-width: 100%; */
+    color: rgb(195, 194, 194);
+    background-color: rgb(255, 255, 255);
+}
+footer div {
+    display: inline-block;
+    
+}
+
+footer span {
+    margin-left: 15px;
+}
+footer span div {
+    
+    border: 1px solid rgb(195, 194, 194);
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: grey;
+    background-color:rgb(235, 232, 232);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+footer > div {
+    width: 100%;
+    margin: 0 auto;
+}
+div.line {
+    border-bottom: 1px solid rgb(195, 194, 194);
+    margin-top: 10px;
+    margin: 10px 0;
+}
+
+.main>.text {
+    position: relative;
+    top: -100px;
+}
