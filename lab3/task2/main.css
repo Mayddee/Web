@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    /* height: 22px; */
+    width: 100%;
+    background-color: black;
+    color: grey;
+    font-size: 30px;
+    padding: 10px 70px;
+}
+.center {
+    width: 30%;
+    margin: 100px auto;
+    
+}
+h1 {
+    text-align: center;
+}
+.plaintext {
+    width: 60%;
+    padding-left: 10px;
+    border: 1px solid grey;
+}
+#input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#task-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-group-append {
+    flex: 0;
+}
+.button {
+    height: 20px;
+    width: 100px;
+}
+li > span {
+    margin: 0 20px;
+}
+.delete {
+    float: right;
+    background-color: red;
+    color: white;
+}
+.delete:hover {
+    box-shadow: 0 0 2px 2px rgb(209, 208, 208);
+}

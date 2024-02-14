@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <header>
+        <p>ToDoList</p>
+    </header>
+    <div id="main" class="form-group">
+        <div class="center">
+            <h1>ToDo List</h1>
+            <div id="input" class="input-group">
+                <input type="text" placeholder="New Task" class="form-control" id="task-input">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary btn-primary" onclick="addTask()">Add</button>
+                </div>
+                
+            </div>
+            <ul class="list-group" id="task-list">
+                <!-- <li class="list-group-item"><input type="checkbox"><span>wwd</span></li>
+                <li class="list-group-item"><input type="checkbox"> <span>wwd</span></li>
+                <li class="list-group-item"><input type="checkbox"> <span>wwd</span></li>
+                <li class="list-group-item"><input type="checkbox"> <span>wwd</span></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
