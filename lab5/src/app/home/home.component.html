@@ -1,0 +1,17 @@
+
+  <div class="products">
+    <div *ngFor="let product of products" class="product">
+      <div class="img">
+        <!-- img *ngFor="let imageUrl of product.imageUrls" [src]="imageUrl" alt="Product Image" width="200px" height="300px"> -->
+        <img src="{{ product.imageUrl }}" alt="Product Image" width="200px" height="300px">
+      </div>
+      
+      <h3>{{ product.name }}</h3>
+      <p class="desc">{{ product.description }}</p>
+      <p class="price">Price: {{ product.price }}tg</p>
+      <button class="visit"><a href="{{ product.websiteUrl }}" target="_blank">See Product</a></button>
+      <button class="share"><a href="https://web.telegram.org/a/" target="_blank">Share</a></button>
+    </div>
+  </div>
+  
+    

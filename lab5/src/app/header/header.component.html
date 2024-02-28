@@ -1,0 +1,14 @@
+
+
+
+<div id="header">
+  <div><img class="logo" src="../assets/images/logo.png" width="10px" alt="logo"><span>Kaspi.kz</span></div>
+  <div class="dropdown">
+    <span class="dropbtn">Categories ></span>
+    <div class="dropdown-content">
+      <a *ngFor="let category of getProductService().categories" class="category" onclick="onCategoryClick(category)" [routerLink]="['/product-list', category.id]">
+        {{ category.name }}
+      </a>
+    </div>
+  </div>
+</div>
